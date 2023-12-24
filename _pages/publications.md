@@ -2,10 +2,10 @@
 layout: page
 permalink: /research/
 title: Research
-description: Please see more complete list of publications on <a href='https://scholar.google.com/citations?user=FvPXxs0AAAAJ&hl=en' style='color:#B509AC'> Google Scholar</a>.<br>The corresponding author is denoted by * . 
+description: The corresponding author is denoted by * . 
 years: [current, forthcoming, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 categories: ['Working Papers', 'Work-in-progress', 'Published Papers']
-catprint: ['', 'Working Papers', 'Work-in-progress', 'Published Papers', 'Conferences', 'Posters']
+catprint: ['', 'Manuscripts Under Review', 'Manuscripts Under Development', 'Published and Forthcoming Articles', 'Conferences', 'Posters']
 nav: true
 nav_order: 1
 ---
@@ -16,10 +16,10 @@ nav_order: 1
 	{% assign ind = forloop.index %}
 
 	{%- capture cat -%}
- 		{% if page.catprint[ind] == "Work-in-progress" -%}
-			Work-in-progress <h6 class="mb-n4 mt-3 pt-2 mp-5">Correct authoring will be determined later</h6>
+ 		{% if page.catprint[ind] == "Manuscripts Under Development" -%}
+			Manuscripts Under Development <h6 class="mb-n4 mt-3 pt-2 mp-5">Correct authoring will be determined later</h6>
 		{% elsif page.catprint[ind] == "Published Papers" -%}
-			Selected {{ page.catprint[ind] }}
+			 {{ page.catprint[ind] }}
 		{%- else %}
 			{{ page.catprint[ind] }}
 		{% endif %}

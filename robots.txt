@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://namilkim.github.io/sitemap.xml
+Sitemap: https://frintstones.github.io/sitemap.xml

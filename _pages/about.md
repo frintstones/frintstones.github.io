@@ -1,17 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Assistant Professor</p>
-    <p><a href='https://aif.konkuk.ac.kr/main.do'>Department of Advanced Industry Fusion</a></p>
-    <p><a href='http://www.konkuk.ac.kr/eng'>Konkuk University</a></p>
+    <p></p>
+    <p></a></p>
+    <p></a></p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,21 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
- 
-### Welcome!
+Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/).
 
-I am **Namil Kim**, an assistant professor at the [Department of Advanced Industry Fusion](https://aif.konkuk.ac.kr/main.do), [Konkuk University](http://www.konkuk.ac.kr/eng). 
+- My research interests are focused on deepening the understanding of how technological advancements affect entrepreneurial process and start-up performance. 
 
+  - One of my research streams is to demonstrate a new perspective for understanding entrepreneurial activity based on rapid advancements in digital platforms and the surge in the adoption of automation technology.
 
-- My research interests encompass topics within strategic management, innovation, and entrepreneurship. 
-  - I have carried out studies on industry dynamics, firms' innovation performance, and the influence of socio-economic factors on entrepreurial activities.
-  - Lately, I have also developed an interest in the economics of digitization and AI. 
-  - In particular, some of my current work-in-progress projects explore how digitization and AI transform decision-making, knowledge discovery, collaborative efforts, and the utilization of new products.
+  - Another stream of my research focuses on how technological factors could be the competitive advantages of start-ups by looking at entrepreneurs’ behavioral responses to previous start-up failures. 
 <br>
 <br>
-- You can find my research at the [research](./research) section of my webpage or [google scholar](https://scholar.google.com/citations?user=FvPXxs0AAAAJ).
-
-- Feel free to contact me via email below if you like my research.
+- You can find more detailed information about my research at the [research](./research) section of my webpage and on my [CV](./cv).
 
 <!-- If you 
 

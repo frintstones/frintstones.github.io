@@ -1,35 +1,38 @@
 "Kim":
   - firstname: ["Wonjoon", "W."]
     url: http://wjkim.kaist.ac.kr
-  - firstname: ["Junsik", "J."]
-    url: https://sites.google.com/site/jskimcv/
-  - firstname: ["Daehyun", "D."]
-    url: https://daehyunkim.me
+  - firstname: ["Namil", "N."]
+    url: https://namilkim.github.io/
 
 "Kim*":
   - firstname: ["Wonjoon", "W."]
     url: http://wjkim.kaist.ac.kr
+  - firstname: ["Namil", "N."]
+    url: https://namilkim.github.io/
+  - firstname: ["Taekyun", "T."]
+    url: https://sites.google.com/view/taekyunkim
 
-"Choi":
-  - firstname: ["Sukwoong", "S."]
-    url: https://sukwoongchoi.github.io
 
-"Kang":
-  - firstname: ["Hyo", "H."]
-    url: https://hyokang.com
-
-"Kang*":
-  - firstname: ["Hyo", "H."]
-    url: https://hyokang.com
-
-"Yoon": 
-  - firstname: ["David", "Hyungseok David", "Hyungseok", "D.", "H.D.", "H."]
-    url: https://business.leeds.ac.uk/divisions-international-business/staff/270/dr-david-yoon
-
-"Yoon*": 
-  - firstname: ["David", "Hyungseok David", "Hyungseok", "D.", "H.D.", "H."]
-    url: https://business.leeds.ac.uk/divisions-international-business/staff/270/dr-david-yoon
-  
 "Park": 
   - firstname: ["Haemin Dennis", "H.D."]
     url: https://sites.google.com/view/hdp323
+
+"Paik": 
+  - firstname: ["Yongwook", "Y."]
+    url: https://www.business.kaist.edu/faculty/ywpaik
+
+"Youn": 
+  - firstname: ["Hyejin", "H."]
+    url: http://hyoun.me/
+
+"Chatterji": 
+  - firstname: ["Aaron", "A."]
+    url: https://sites.duke.edu/ronniechatterji/
+
+"Heller": 
+  - firstname: ["David", "D."]
+    url: https://www.david-heller.com/
+
+"Harhoff": 
+  - firstname: ["Dietmar", "D."]
+    url: https://www.ip.mpg.de/de/personen/prof-dietmar-harhoff.html                         

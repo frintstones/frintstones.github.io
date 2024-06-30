@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/).
 
-- My overarching research theme explores the relationship between technological advancements and entrepreneurial activities.. 
+- My overarching research theme explores the relationship between technological advancements and entrepreneurial activities.
 
   - Digital Platforms and Automation Technology: This research stream demonstrates a new perspective on understanding entrepreneurial activity, emphasizing the rapid advancements in digital platforms and the surge in the adoption of automation technology.
 

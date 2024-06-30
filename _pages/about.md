@@ -21,11 +21,13 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/).
 
-- My research interests are focused on deepening the understanding of how technological advancements affect entrepreneurial process and start-up performance. 
+- My overarching research theme explores the relationship between technological advancements and entrepreneurial activities.. 
 
-  - One of my research streams is to demonstrate a new perspective for understanding entrepreneurial activity based on rapid advancements in digital platforms and the surge in the adoption of automation technology.
+  - Digital Platforms and Automation Technology: This research stream demonstrates a new perspective on understanding entrepreneurial activity, emphasizing the rapid advancements in digital platforms and the surge in the adoption of automation technology.
 
-  - Another stream of my research focuses on how technological factors could be the competitive advantages of start-ups by looking at entrepreneurs’ behavioral responses to previous start-up failures. 
+  - Business Regulations, Policies, and Firm Innovation: Another focus of my research investigates how changes in business regulations and policies impact firm innovation and growth.
+    
+  - Technological Characteristics of Startups: The third stream examines the technological characteristics of startups using large language models to explore how these characteristics relate to venture capital funding outcomes.  
 <br>
 <br>
 - You can find more detailed information about my research at the [research](./research) section of my webpage and on my [CV](./cv).

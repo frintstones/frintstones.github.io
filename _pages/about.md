@@ -23,7 +23,7 @@ Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck In
 
 - <b>My overarching research theme focuses on uncovering the key drivers of entry and growth in high-tech entrepreneurship, centered on technology development, business regulations, and public policies</b>.
 
-  - <b>Technological Development and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze startups' technological characteristics using large language models to explore their relationship with venture capital funding outcomes.
+  - <b>Technological Development and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze the technological space of startups using large language models to examine their relationship with venture capital funding outcomes.
 
   - <b>Business Regulations, Policies, and Entrepreneurship (Inventor Mobility)</b>: Another pillar of my research focuses on how changes in business regulations and policies shape entrepreneurship and innovation. In this context, I have conducted empirical research on Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
 <br>

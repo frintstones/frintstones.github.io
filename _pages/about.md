@@ -28,7 +28,7 @@ Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck In
   - <b>Business Regulations, Policies, and Entrepreneurship (Inventor Mobility)</b>: Another pillar of my research focuses on how changes in business regulations and policies shape entrepreneurship and innovation. In this context, I have conducted empirical research on Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
 <br>
 
-You can find more detailed information about my research in the [research](./research) section of my webpage and on my [CV](./cv).
+You can find more details about my research in the [research](./research) section of my webpage and on my [CV](./cv).
 
 <!-- If you 
 

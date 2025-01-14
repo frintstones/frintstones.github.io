@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/).
 
-- <b>My overarching research theme focuses on understanding how technological development, business regulations, and public policies foster entrepreneurship and innovation</b>.
+- <b>My overarching research theme focuses on uncovering the key drivers of entry and growth in high-tech entrepreneurship, with a focus on technology development, business regulations, and public policies</b>.
 
   - <b>Technological Development and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze startups' technological characteristics using large language models to explore their relationship with venture capital funding outcomes.
 

@@ -25,7 +25,7 @@ Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck In
 
   - <b>Technological Development and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze startups' technological characteristics using large language models to explore their relationship with venture capital funding outcomes.
 
-  - <b>Business Regulations, Policies, and Entrepreneurship (Inventor Mobility)</b>: Another pillar of my research investigates how changes in business regulations and policies influence entrepreneurship and innovation. I study the impact of shifts in workplace environments, changes in patent systems, and government-sponsored accelerators on the entrepreneurial process, inventor mobility, and Venture capital financing. In this context, I have conducted empirical research using settings such as Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
+  - <b>Business Regulations, Policies, and Entrepreneurship (Inventor Mobility)</b>: Another pillar of my research focuses on how changes in business regulations and policies shape entrepreneurship and innovation. In this context, I have conducted empirical research on Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
 
 <br>
 <br>

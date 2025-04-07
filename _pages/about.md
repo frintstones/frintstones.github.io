@@ -21,11 +21,11 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal page! I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/).
 
-- <b>My overarching research theme focuses on uncovering the key drivers of entry and growth in high-tech entrepreneurship, centered on technological development, business regulations, and public policies</b>.
+- <b>My research examines what drives the entry and growth of startups, with a particular focus on technological innovation and institutional factors, such as employment and innovation policies.</b>.
 
-  - <b>Technological Development and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze the technological space of startups using large language models to examine their relationship with venture capital funding outcomes.
+  - <b>Technological Innovation and Entrepreneurship</b>: This research stream examines entrepreneurial activity in the context of rapid advancements in digital platforms and the growing adoption of AI. I also analyze the technological space of startups using large language models to examine their relationship with venture capital funding outcomes.
 
-  - <b>Business Regulations, Policies, and Entrepreneurship (Inventor Mobility)</b>: Another focus of my research is on how business regulations and policy changes shape entrepreneurship and innovation. I explore these dynamics using empirical settings like Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
+  - <b>Institutional Factors and Entrepreneurship</b>: Another focus of my research is on how institutional contexts influence entrepreneurial entry and startup growth. I explore these dynamics using empirical settings like Paid Family Leave policies, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.
 <br>
 
 You can find more details about my research in the [research](./research) section of my webpage and on my [CV](./cv).

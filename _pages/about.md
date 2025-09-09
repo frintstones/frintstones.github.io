@@ -1,5 +1,5 @@
 ---
-layout: default   # ← about 대신 default
+layout: about
 title: About
 permalink: /
 subtitle:

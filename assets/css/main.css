@@ -858,69 +858,6 @@ nav[data-toggle=toc] .nav-link.active:hover {
     top: 0;
   }
 }
-/* 기본 about 프로필 상자 숨기기(겹침 방지) */
-.about .profile {
-  display: none !important;
-}
-
-/* 왼쪽 사진 + 오른쪽 본문 레이아웃 */
-.about-hero {
-  display: grid;
-  grid-template-columns: 280px 1fr; /* 왼쪽 사진 폭, 오른쪽 본문 */
-  gap: 32px;
-  align-items: start;
-  margin-bottom: 1.5rem;
-}
-
-.about-hero .left img {
-  width: 100%;
-  display: block;
-  border-radius: 14px; /* 원하면 50%로 → 완전 원형 */
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-}
-
-.about-hero .left .caption {
-  margin-top: 12px;
-  line-height: 1.35;
-  font-size: 0.95rem;
-  color: #111;
-}
-
-.about-hero .right h3 {
-  margin-top: 0;
-}
-
-.about-hero .right p {
-  margin-bottom: 1rem;
-}
-
-/* (옵션) 불릿 쓰더라도 점을 없애고 싶으면 주석 해제
-.about-hero .right ul { list-style: none; padding-left: 0; }
-*/
-/* 모바일 */
-@media (max-width: 768px) {
-  .about-hero {
-    grid-template-columns: 1fr;
-  }
-  .about-hero .left {
-    max-width: 320px;
-    margin: 0 auto;
-  }
-}
-/* 1) About 페이지의 큰 H1(자동 페이지 타이틀) 숨기기 */
-body.layout--about h1.page-title,
-body.layout--about .page-title,
-body.layout--about .page-header h1 {
-  display: none !important;
-}
-
-/* 2) About에서도 좌상단 브랜드(작은 이름) 항상 보이게 */
-body.layout--about .navbar-brand {
-  display: inline-flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
@@ -1060,6 +997,68 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   d-article d-contents nav {
     grid-column: none;
   }
+}
+/* 기본 about 프로필 상자 숨기기(겹침 방지) */
+.about .profile {
+  display: none !important;
+}
+
+/* 왼쪽 사진 + 오른쪽 본문 레이아웃 */
+.about-hero {
+  display: grid;
+  grid-template-columns: 280px 1fr; /* 왼쪽 사진 폭, 오른쪽 본문 */
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.about-hero .left img {
+  width: 100%;
+  display: block;
+  border-radius: 14px; /* 원하면 50%로 → 완전 원형 */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.about-hero .left .caption {
+  margin-top: 12px;
+  line-height: 1.35;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+.about-hero .right h3 {
+  margin-top: 0;
+}
+
+.about-hero .right p {
+  margin-bottom: 1rem;
+}
+
+/* (옵션) 불릿 쓰더라도 점을 없애고 싶으면 주석 해제
+.about-hero .right ul { list-style: none; padding-left: 0; }
+*/
+/* 모바일 */
+@media (max-width: 768px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+  }
+  .about-hero .left {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+/* 1) About 페이지의 큰 H1(자동 페이지 타이틀) 숨기기 */
+body.layout--about h1.page-title,
+body.layout--about .page-title,
+body.layout--about .page-header h1 {
+  display: none !important;
+}
+
+/* 2) About에서도 좌상단 브랜드(작은 이름) 항상 보이게 */
+body.layout--about .navbar-brand {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

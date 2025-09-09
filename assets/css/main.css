@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -855,6 +856,55 @@ nav[data-toggle=toc] .nav-link.active:hover {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+}
+/* 기본 about 프로필 상자 숨기기(겹침 방지) */
+.about .profile {
+  display: none !important;
+}
+
+/* 왼쪽 사진 + 오른쪽 본문 레이아웃 */
+.about-hero {
+  display: grid;
+  grid-template-columns: 280px 1fr; /* 왼쪽 사진 폭, 오른쪽 본문 */
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.about-hero .left img {
+  width: 100%;
+  display: block;
+  border-radius: 14px; /* 원하면 50%로 → 완전 원형 */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.about-hero .left .caption {
+  margin-top: 12px;
+  line-height: 1.35;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+.about-hero .right h3 {
+  margin-top: 0;
+}
+
+.about-hero .right p {
+  margin-bottom: 1rem;
+}
+
+/* (옵션) 불릿 쓰더라도 점을 없애고 싶으면 주석 해제
+.about-hero .right ul { list-style: none; padding-left: 0; }
+*/
+/* 모바일 */
+@media (max-width: 768px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+  }
+  .about-hero .left {
+    max-width: 320px;
+    margin: 0 auto;
   }
 }
 /*******************************************************************************

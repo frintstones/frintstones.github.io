@@ -25,17 +25,11 @@ social: true
   <p>I am a Senior Research Fellow at the
   <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a>.</p>
 
-  <p>My research examines what drives the entry and growth of startups, with a particular
-  focus on technological innovation and institutional factors, such as employment and
-  innovation policies.</p>
+  <p>My research examines the drivers of startup entry and growth, with a particular focus on technological innovation and institutional factors.</p>
 
-  <p>On the technology side, I study entrepreneurial activity amid rapid advances in digital
-  platforms and AI. I also analyze startups’ technological space using large language
-  models to examine links to venture funding outcomes.</p>
+  <p>On the technology side, I study entrepreneurial activity amid rapid advances in digital platforms and AI. I also analyze startups’ technological domains using large language models to uncover links to venture funding outcomes.</p>
 
-  <p>On the institutional side, I examine how contexts shape entrepreneurial entry and growth,
-  drawing on settings such as Paid Family Leave policies, Right-to-Work laws, the American
-  Inventors Protection Act, and the German Accelerator Program.</p>
+  <p>On the institutional side, I investigate how employment and innovation policies influence entrepreneurial entry and growth, using empirical settings such as Paid Family Leave, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.</p>
 
   <p>You can find more details in the <a href="./research">research</a> section and on my <a href="./cv">CV</a>.</p>
 </div>

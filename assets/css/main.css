@@ -1047,20 +1047,35 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     margin: 0 auto;
   }
 }
-/* About 페이지의 큰 제목(H1) 감추기 */
+/* =========================
+   About: 큰 H1(페이지 타이틀) 감추기
+   ========================= */
 body.layout--about h1.page-title,
 body.layout--about .page-title,
+body.layout--about .page-header,
 body.layout--about .page-header h1 {
   display: none !important;
 }
 
-/* About에서도 좌상단 브랜드(작은 이름) 항상 보이게 */
+/* =========================
+   About: 좌상단 브랜드(작은 이름) 항상 보이게
+   테마에서 숨기는 규칙을 전부 무력화
+   ========================= */
 body.layout--about .navbar-brand,
 body.layout--about .site-title,
 body.layout--about .navbar .navbar-title {
   display: inline-flex !important;
   visibility: visible !important;
   opacity: 1 !important;
+  position: static !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* (선택) 브랜드 크기/굵기 조정 */
+.navbar .navbar-brand {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */

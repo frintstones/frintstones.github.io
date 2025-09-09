@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: The corresponding author is denoted by * . 
+description: 
 years: [current, forthcoming, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 categories: ['Published Papers', 'Working Papers', 'Work-in-progress']
 catprint: ['','Published and Forthcoming Articles', 'Manuscripts Under Review', 'Manuscripts Under Development', 'Conferences', 'Posters']

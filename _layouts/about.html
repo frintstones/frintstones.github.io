@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<!-- About 전용: 좌상단 브랜드 강제 렌더 -->
+<header class="site-header" id="about-brand">
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      {%- if site.title and site.title != 'blank' -%}
+        {{ site.title }}
+      {%- else -%}
+        {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}
+      {%- endif -%}
+    </a>
+  </nav>
+</header>
+
+
 <!-- about.html (커스텀: 큰 H1/제목 출력 안 함) -->
 <div class="post">
   <!-- ⛔ 기존의 post-header 블록(큰 H1 + subtitle) 삭제 -->

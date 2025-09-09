@@ -69,4 +69,8 @@ body.layout--about .navbar .d-none { display: block !important; }             /*
 body.layout--about .site-header { visibility: visible !important; opacity: 1 !important; }
 body.layout--about .site-header[hidden] { display: block !important; }        /* hidden 특성 무력화 */
 
+/* About에서도 헤더/브랜드를 확실히 보이게 */
+body.layout--about header.site-header { display: block !important; }
+body.layout--about .navbar { display: flex !important; }
+body.layout--about .navbar-brand { display: inline-flex !important; visibility: visible !important; opacity: 1 !important; }
 

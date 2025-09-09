@@ -907,6 +907,13 @@ nav[data-toggle=toc] .nav-link.active:hover {
     margin: 0 auto;
   }
 }
+/* About 페이지 상단의 자동 H1(큰 이름) 숨기기 */
+.layout--about .page-title,
+.about .page-title,
+h1.page-title {
+  display: none !important;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/

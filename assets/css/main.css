@@ -1072,10 +1072,37 @@ body.layout--about .navbar .navbar-title {
   width: auto !important;
 }
 
-/* (선택) 브랜드 크기/굵기 조정 */
-.navbar .navbar-brand {
-  font-size: 1rem;
-  font-weight: 600;
+/* ====== About에서도 헤더/브랜드 강제 노출(숨김 규칙 전부 무력화) ====== */
+body.layout--about header.site-header {
+  display: block !important;
 }
+
+body.layout--about .navbar {
+  display: flex !important;
+}
+
+body.layout--about .navbar-brand {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+body.layout--about .navbar-brand.d-none {
+  display: inline-flex !important;
+} /* 부트스트랩 d-none 대응 */
+body.layout--about .site-title.d-none {
+  display: inline !important;
+} /* 테마가 site-title에 d-none 주는 경우 */
+body.layout--about .navbar .d-none {
+  display: block !important;
+} /* 기타 d-none 무력화 */
+body.layout--about .site-header {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+body.layout--about .site-header[hidden] {
+  display: block !important;
+} /* hidden 특성 무력화 */
 
 /*# sourceMappingURL=main.css.map */

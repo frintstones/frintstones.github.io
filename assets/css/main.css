@@ -1047,15 +1047,17 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     margin: 0 auto;
   }
 }
-/* 1) About 페이지의 큰 H1(자동 페이지 타이틀) 숨기기 */
+/* About 페이지의 큰 제목(H1) 감추기 */
 body.layout--about h1.page-title,
 body.layout--about .page-title,
 body.layout--about .page-header h1 {
   display: none !important;
 }
 
-/* 2) About에서도 좌상단 브랜드(작은 이름) 항상 보이게 */
-body.layout--about .navbar-brand {
+/* About에서도 좌상단 브랜드(작은 이름) 항상 보이게 */
+body.layout--about .navbar-brand,
+body.layout--about .site-title,
+body.layout--about .navbar .navbar-title {
   display: inline-flex !important;
   visibility: visible !important;
   opacity: 1 !important;

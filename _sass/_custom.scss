@@ -34,8 +34,10 @@
   .about-hero .left { max-width: 320px; margin: 0 auto; }
 }
 
-/* About 페이지 상단의 자동 H1(큰 이름) 숨기기 */
-.layout--about .page-title,
-.about .page-title,
-h1.page-title { display: none !important; }
+/* (A) About 페이지의 큰 H1 제목 숨기기 */
+.layout--about .page-title { display: none !important; }
+
+/* (B) About에서도 좌상단 브랜드(이름) 항상 보이게 강제 표시 */
+.layout--about .navbar-brand { display: inline-flex !important; visibility: visible !important; opacity: 1 !important; }
+
 

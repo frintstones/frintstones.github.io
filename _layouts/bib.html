@@ -142,6 +142,9 @@
             {%- if entry.presentation -%}
             <li style="margin-bottom: 0px;"><b>Presented:</b> {{entry.presentation}}</li>
             {%- endif -%}
+            {%- if entry.note -%}
+            <li style="margin-bottom: 0px;"><b>Note:</b> {{ entry.note }}</li>
+            {%- endif -%}  
             {%- if entry.grant -%}
             <li style="margin-bottom: 0px;"><b>Grant:</b> {{entry.grant}}</li>
             {%- endif -%}

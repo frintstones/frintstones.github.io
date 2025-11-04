@@ -24,7 +24,7 @@ social: true
 
   <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a>.</p>
   
-  <p> My research examines the causes and consequences of entrepreneurial strategies, with a particular focus on how technological innovation and public policies influence startup entry, team formation, internationalization, venture capital investment, and inventor mobility. To study this, I draw on empirical contexts such as the emergence of new digital platforms, advances in artificial intelligence, and the enactment of public policies including Paid Family Leave, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.</p>
+  <p> My research examines the causes and consequences of entrepreneurial strategies, focusing on how technological innovation and public policies shape startup entry, team formation, internationalization, venture capital investment, and inventor mobility. To study this, I draw on empirical contexts such as the emergence of new digital platforms, advances in artificial intelligence, and the enactment of public policies including Paid Family Leave, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program.</p>
   
   <p>You can find more details in the <a href="./research">research</a> section and on my <a href="./cv">CV</a>.</p>
 </div>

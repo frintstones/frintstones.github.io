@@ -24,7 +24,7 @@ social: true
 
   <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a>.</p>
   
-  <p> My research focuses on how technological and institutional changes shape firm strategy, innovation, and entrepreneurial activity. To address these questions, I draw on empirical settings such as the rise of digital platforms, advances in artificial intelligence, and major policy changes—including Paid Family Leave, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program—to causally identify the effects of these changes on startup entry, team formation, internationalization, venture capital investment, and inventor mobility.</p>
+  <p> My research focuses on how technological and institutional changes shape firm strategy, innovation, and entrepreneurial activity. To study this, I draw on empirical settings such as the emergence of digital platforms, advances in artificial intelligence, and major public policy changes—including Paid Family Leave, Right-to-Work laws, the American Inventors Protection Act, and the German Accelerator Program—to causally identify the effects of these changes on startup entry, team dynamics, internationalization, venture capital investment, and inventor mobility. </p>
   
   <p>You can find more details in the <a href="./research">research</a> section and on my <a href="./cv">CV</a>.</p>
 </div>

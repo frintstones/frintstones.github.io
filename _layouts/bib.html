@@ -164,6 +164,12 @@
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
+          {%- if entry.cepr %}
+            <a href="{{ entry.cepr }}" class="btn btn-sm z-depth-0" role="button">CEPR</a>
+          {%- endif %}
+          {%- if entry.sms %}
+            <a href="{{ entry.sms }}" class="btn btn-sm z-depth-0" role="button">SMS</a>
+          {%- endif %}                 
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">SSRN</a>
           {%- endif %}

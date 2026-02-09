@@ -25,13 +25,13 @@ social: true
   <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a>.</p>
   
 <p>
-  My research focuses on the <strong>drivers of firm innovation strategy and entrepreneurship</strong>. 
+  My research focuses on the drivers of firm innovation strategy and entrepreneurship. 
   Specifically, I investigate how technological innovation and institutional changes influence inventor mobility, 
   firm patenting, organizational dynamics, internationalization, venture capital investment, and new firm creation.
 </p>
 
 <p>
-  Recently, I have been investigating the effects of <strong>generative AI on startup founding teams and hiring processes</strong>. 
+  Recently, I have been investigating how generative AI affects startup growth and founding team diversity. 
   You can find more details in the <a href="./research">research</a> section and on my <a href="./cv">CV</a>.
 </p>
 </div>

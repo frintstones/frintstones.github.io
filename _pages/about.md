@@ -26,16 +26,13 @@ social: true
   
 <p>
   My research focuses on the <strong>drivers of firm innovation strategy and entrepreneurship</strong>. 
-  Specifically, I investigate how <span style="color: #000080;"><strong>technological innovation</strong></span> and 
-  <span style="color: #000080;"><strong>institutional changes</strong></span> influence inventor mobility, 
+  Specifically, I investigate how technological innovation and institutional changes influence inventor mobility, 
   firm patenting, organizational dynamics, internationalization, venture capital investment, and new firm creation.
 </p>
 
 <p>
-  Recently, I have been investigating the effects of <strong>generative AI</strong> on 
-  startup founding teams and hiring processes. You can find more details in the 
-  <a href="./research" style="color: #000080; font-weight: bold;">research</a> section and on my 
-  <a href="./cv" style="color: #000080; font-weight: bold;">CV</a>.
+  Recently, I have been investigating the effects of <strong>generative AI on startup founding teams and hiring processes</strong>. 
+  You can find more details in the <a href="./research">research</a> section and on my <a href="./cv">CV</a>.
 </p>
 </div>
 </div>

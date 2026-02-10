@@ -25,9 +25,8 @@ social: true
   <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a>.</p>
   
 <p>
-  My research focuses on the drivers of firm innovation strategy and entrepreneurship. 
-  Specifically, I investigate how technological innovation and institutional changes influence inventor mobility, 
-  firm patenting, organizational dynamics, internationalization, venture capital investment, and new firm creation.
+ My research focuses on the drivers of firm innovation strategy and entrepreneurship. 
+ Specifically, I investigate how technological and institutional changes influence organizational dynamics, internationalization strategies, and the entrepreneurial ecosystem—including VC  financing and new firm creation.
 </p>
 
 <p>

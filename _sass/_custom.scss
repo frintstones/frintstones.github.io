@@ -1,10 +1,10 @@
 /* ---- Global: darker text + bigger font ---- */
 body {
   font-size: 1.1rem;
-  color: #111;
+  color: #000;
 }
 p, li, span, div, td, th {
-  color: #111;
+  color: #000;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-main p {
   font-size: 1.1rem;
   line-height: 1.75;
-  color: #111;
+  color: #000;
 }
 
 .sidebar-avatar {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-role {
   font-size: 0.95rem;
   margin: 0 0 0.15rem;
-  color: #111;
+  color: #000;
   font-weight: 400;
 }
 
@@ -83,11 +83,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.92rem;
   margin: 0 0 0.6rem;
   line-height: 1.45;
-  color: #222;
+  color: #000;
   font-weight: 400;
 }
 .sidebar-affil a {
-  color: #222;
+  color: #000;
   text-decoration: none;
 }
 .sidebar-affil a:hover {
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #222;
+  color: #000;
   font-size: 0.92rem;
   text-decoration: none;
   transition: color 0.2s;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 1.2em;
   text-align: center;
   font-size: 1.05rem;
-  color: #222;
+  color: #000;
 }
 
 /* ---- Hide big H1 on About ---- */

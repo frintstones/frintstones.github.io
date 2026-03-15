@@ -209,13 +209,23 @@ body.layout--about .navbar .navbar-title {
 }
 
 /* ---- Research page buttons ---- */
-.publications .links a {
+.publications .links a[href] {
   padding: 1px 6px;
   border-radius: 3px;
   font-size: 0.78rem;
   margin-right: 3px;
   text-decoration: none;
   color: #fff !important;
+}
+.publications .links a:not([href]),
+.publications .links .btn-abstract,
+.publications .links .abstract {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 0.78rem;
 }
 .publications .links a[href*="ssrn"] {
   background-color: #2d6ca2;

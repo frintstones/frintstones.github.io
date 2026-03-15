@@ -1005,30 +1005,39 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 /* ---- About page sidebar layout ---- */
 .about-sidebar-layout {
   display: flex;
-  gap: 2.5rem;
-  align-items: flex-start;
+  align-items: stretch;
+  min-height: calc(100vh - 120px);
 }
 
 .about-sidebar {
   width: 250px;
   min-width: 250px;
   text-align: center;
+  padding-right: 2rem;
+  border-right: 1px solid var(--global-divider-color);
+}
+
+.about-main {
+  flex: 1;
+  min-width: 0;
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
 }
 
 .sidebar-avatar {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto 1.2rem;
+  margin: 0 auto 1rem;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar-name {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.5rem;
   line-height: 1.3;
 }
 
@@ -1042,14 +1051,14 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 .sidebar-role {
-  font-size: 0.88rem;
-  margin: 0 0 0.15rem;
+  font-size: 0.85rem;
+  margin: 0 0 0.1rem;
   color: var(--global-text-color);
 }
 
 .sidebar-affil {
-  font-size: 0.84rem;
-  margin: 0 0 0.6rem;
+  font-size: 0.82rem;
+  margin: 0 0 0.5rem;
   line-height: 1.4;
   color: var(--global-text-color-light);
 }
@@ -1064,7 +1073,7 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 .sidebar-divider {
-  margin: 1rem auto;
+  margin: 0.8rem auto;
   width: 60%;
   border-top: 1px solid var(--global-divider-color);
 }
@@ -1073,16 +1082,16 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
-  padding-left: 2rem;
+  gap: 0.45rem;
+  padding-left: 1.5rem;
 }
 
 .sidebar-social a {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.5rem;
   color: var(--global-text-color-light);
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -1093,14 +1102,9 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 }
 
 .sidebar-social a i {
-  width: 1.3em;
+  width: 1.2em;
   text-align: center;
-  font-size: 1.05rem;
-}
-
-.about-main {
-  flex: 1;
-  min-width: 0;
+  font-size: 1rem;
 }
 
 /* ---- Hide big H1 on About ---- */
@@ -1127,15 +1131,23 @@ body.layout--about .navbar .navbar-title {
 @media (max-width: 768px) {
   .about-sidebar-layout {
     flex-direction: column;
+    min-height: auto;
   }
   .about-sidebar {
     width: 100%;
     min-width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-right: 0;
+    padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
   }
+  .about-main {
+    padding-left: 0;
+  }
   .sidebar-avatar {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
   .sidebar-social {
     flex-direction: row;

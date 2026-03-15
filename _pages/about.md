@@ -15,7 +15,7 @@ social: true
   <div class="caption">
     <strong>Daehyun (Dan) Kim</strong><br>
     <em>Senior Research Fellow</em><br>
-    Max Planck Institute for Innovation and Competition<br>
+    MPI for Innovation and Competition<br>
     <em>Adjunct Professor</em><br>
     School of Business Administration, UNIST
   </div>

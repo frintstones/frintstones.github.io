@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
-
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
@@ -8,83 +7,42 @@
   {%- endif -%}
   {% include head.html %}
   </head>
-
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} layout--{{ page.layout }}">
-
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {%- include header.html %}
-
-    <!-- Sidebar + Content wrapper -->
-    <div class="site-wrapper">
-
-      <!-- ===== Left Sidebar (persistent across all pages) ===== -->
-      <aside class="site-sidebar">
-        <div class="sidebar-inner">
-          <a href="{{ '/' | relative_url }}">
-            <img class="sidebar-avatar" src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}">
-          </a>
-
-          <h3 class="sidebar-name">
-            <a href="{{ '/' | relative_url }}">
-              {{ site.first_name }}&nbsp;{{ site.middle_name }}&nbsp;{{ site.last_name }}
-            </a>
-          </h3>
-
-          <p class="sidebar-role"><em>Senior Research Fellow</em></p>
-          <p class="sidebar-affil">
-            <a href="https://www.ip.mpg.de/en/">Max Planck Institute for<br>Innovation and Competition</a>
-          </p>
-          <p class="sidebar-role"><em>Adjunct Professor</em></p>
-          <p class="sidebar-affil">
-            <a href="https://business.unist.ac.kr/eng/">School of Business<br>Administration, UNIST</a>
-          </p>
-
-          <hr class="sidebar-divider">
-
-          <div class="sidebar-social">
-            {%- if site.email -%}
-            <a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a>
-            {% endif %}
-            {%- if site.scholar_userid -%}
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i><span>Google Scholar</span></a>
-            {% endif %}
-            {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
-            {% endif %}
-            {%- if site.ssrn_id -%}
-            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id={{ site.ssrn_id }}" title="SSRN"><i class="ai ai-ssrn"></i><span>SSRN</span></a>
-            {% endif %}
+    <!-- Content -->
+    <div class="container mt-5">
+      {% if page.toc and page.toc.sidebar %}
+        {% if page.toc.sidebar == "right" %}
+        <div class="row">
+          <!-- main content area -->
+          <div class="col-sm-9">
+            {{ content }}
+          </div>
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
           </div>
         </div>
-      </aside>
-
-      <!-- ===== Main Content ===== -->
-      <main class="site-content">
-        <div class="container mt-5">
-          {% if page.toc and page.toc.sidebar %}
-            {% if page.toc.sidebar == "right" %}
-            <div class="row">
-              <div class="col-sm-9">{{ content }}</div>
-              <div class="col-sm-3"><nav id="toc-sidebar" class="sticky-top"></nav></div>
-            </div>
-            {% else %}
-            <div class="row">
-              <div class="col-sm-3"><nav id="toc-sidebar" class="sticky-top"></nav></div>
-              <div class="col-sm-9">{{ content }}</div>
-            </div>
-            {% endif %}
-          {% else %}
+        {% else %}
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
             {{ content }}
-          {% endif %}
+          </div>
         </div>
-
-        <!-- Footer -->
-        {%- include footer.html %}
-      </main>
-
-    </div><!-- .site-wrapper -->
-
+        {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
+    <!-- Footer -->
+    {%- include footer.html %}
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}

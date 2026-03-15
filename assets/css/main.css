@@ -1189,5 +1189,12 @@ body.layout--about .navbar .navbar-title {
     gap: 0.8rem;
   }
 }
+.sidebar-affil a {
+  font-weight: 400 !important;
+}
+
+.sidebar-role em {
+  font-weight: 400 !important;
+}
 
 /*# sourceMappingURL=main.css.map */

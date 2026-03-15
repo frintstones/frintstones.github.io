@@ -14,4 +14,4 @@ I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Co
 
 My research focuses on the drivers of firm innovation strategy and entrepreneurship. Specifically, I investigate how technological and institutional changes influence organizational dynamics, internationalization strategies, and the entrepreneurial ecosystem—including VC financing and new firm creation.
 
-Recently, I have been investigating how generative AI affects startup growth and founding team diversity. You can find more details in the [research](./research) section and on my [CV](/assets/pdf/DAEHYUNKIM_CV.pdf){:target="_blank"}.
+Recently, I have been investigating how generative AI affects startup growth and founding team diversity. You can find more details in the [research](./research) section and on my <a href="/assets/pdf/DAEHYUNKIM_CV.pdf" target="_blank">CV</a>.

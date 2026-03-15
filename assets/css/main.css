@@ -1242,16 +1242,4 @@ body.layout--about .navbar .navbar-title {
   font-size: 0.85rem;
 }
 
-/* ---- Research page buttons ---- */
-.publications .links .btn {
-  padding: 0px 4px;
-  border-radius: 2px;
-  font-size: 0.72rem;
-  margin-right: 2px;
-  text-decoration: none;
-  background-color: #fff !important;
-  color: #000 !important;
-  border: 1px solid #ccc !important;
-}
-
 /*# sourceMappingURL=main.css.map */

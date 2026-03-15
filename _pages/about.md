@@ -9,7 +9,6 @@ selected_papers: false
 social: false
 ---
 
-### Welcome to my personal page!
 
 I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/) and an Adjunct Professor at the [School of Business Administration, UNIST](https://business.unist.ac.kr/eng/).
 

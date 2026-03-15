@@ -1205,4 +1205,78 @@ body.layout--about .navbar .navbar-title {
   font-weight: 300 !important;
 }
 
+/* ---- Research page buttons ---- */
+.publications .links a {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-right: 4px;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.publications .links a[href*=ssrn] {
+  background-color: #2d6ca2;
+}
+
+.publications .links a[href*="doi.org"],
+.publications .links a[href*=wiley],
+.publications .links a[href*=plos],
+.publications .links a[href*=informs] {
+  background-color: #28a745;
+}
+
+.publications .links a[href*=cepr] {
+  background-color: #6f42c1;
+}
+
+.publications .links a[href*=strategicmanagement] {
+  background-color: #e67e22;
+}
+
+.publications .btn-abstract {
+  background-color: #6c757d;
+  color: #fff !important;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* ---- Research page buttons ---- */
+.publications .links a {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-right: 4px;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.publications .links a[href*=ssrn] {
+  background-color: #2d6ca2;
+}
+
+.publications .links a[href*="doi.org"],
+.publications .links a[href*=wiley],
+.publications .links a[href*=plos],
+.publications .links a[href*=informs] {
+  background-color: #28a745;
+}
+
+.publications .links a[href*=cepr] {
+  background-color: #6f42c1;
+}
+
+.publications .links a[href*=strategicmanagement] {
+  background-color: #e67e22;
+}
+
+.publications .btn-abstract {
+  background-color: #6c757d;
+  color: #fff !important;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
 /*# sourceMappingURL=main.css.map */

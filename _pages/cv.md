@@ -1,19 +1,8 @@
 ---
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
 ---
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<script>
-window.onload = function() {
-  window.open("/assets/pdf/DAEHYUNKIM_CV.pdf", "_blank");
-  history.back();
-};
-</script>
-</head>
-<body></body>
-</html>
+<a href="/assets/pdf/DAEHYUNKIM_CV.pdf" target="_blank" style="font-size:1.1rem;">Download CV (PDF)</a>

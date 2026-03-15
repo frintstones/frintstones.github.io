@@ -1027,7 +1027,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-sidebar {
   width: 280px;
   min-width: 280px;
-  text-align: center;
+  text-align: left;
   padding-right: 2.5rem;
   border-right: none;
   position: sticky;

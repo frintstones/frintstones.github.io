@@ -1,42 +1,117 @@
-/* 기본 about 프로필 상자 숨기기(겹침 방지) */
+/* =============================================================
+   SIDEBAR LAYOUT — Hyo Kang-inspired persistent left sidebar
+   ============================================================= */
+
+/* ---- Site-wide wrapper ---- */
+.site-wrapper {
+  display: flex;
+  min-height: calc(100vh - 56px);
+}
+
+/* ---- Left Sidebar ---- */
+.site-sidebar {
+  width: 280px;
+  min-width: 280px;
+  padding: 2.5rem 1.5rem 2rem;
+  border-right: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  position: sticky;
+  top: 56px;
+  height: calc(100vh - 56px);
+  overflow-y: auto;
+}
+
+.sidebar-inner {
+  text-align: center;
+}
+
+.sidebar-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,.1);
+}
+
+.sidebar-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  line-height: 1.3;
+}
+.sidebar-name a {
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+}
+.sidebar-name a:hover {
+  color: var(--global-theme-color) !important;
+}
+
+.sidebar-role {
+  font-size: 0.88rem;
+  margin: 0 0 0.15rem;
+  color: var(--global-text-color);
+}
+
+.sidebar-affil {
+  font-size: 0.84rem;
+  margin: 0 0 0.6rem;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+}
+.sidebar-affil a {
+  color: var(--global-text-color-light);
+  text-decoration: none;
+}
+.sidebar-affil a:hover {
+  color: var(--global-theme-color);
+}
+
+.sidebar-divider {
+  margin: 1rem auto;
+  width: 60%;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+/* Social links — vertical list with icon + label like Hyo Kang */
+.sidebar-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding-left: 2rem;
+}
+.sidebar-social a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.sidebar-social a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+.sidebar-social a i {
+  width: 1.3em;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+/* ---- Main Content Area ---- */
+.site-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ---- Hide the duplicate profile block that al-folio's about layout renders ---- */
 .about .profile { display: none !important; }
 
-/* 왼쪽 사진 + 오른쪽 본문 레이아웃 */
-.about-hero {
-  display: grid;
-  grid-template-columns: 280px 1fr;   /* 왼쪽 사진 폭, 오른쪽 본문 */
-  gap: 32px;
-  align-items: start;
-  margin-bottom: 1.5rem;
-}
-.about-hero .left img {
-  width: 100%;
-  display: block;
-  border-radius: 14px;                 /* 원하면 50%로 → 완전 원형 */
-  box-shadow: 0 4px 16px rgba(0,0,0,.08);
-}
-.about-hero .left .caption {
-  margin-top: 12px;
-  line-height: 1.35;
-  font-size: 0.95rem;
-  color: #111;
-}
-.about-hero .right h3 { margin-top: 0; }
-.about-hero .right p { margin-bottom: 1rem; }
-
-/* (옵션) 불릿 쓰더라도 점을 없애고 싶으면 주석 해제
-.about-hero .right ul { list-style: none; padding-left: 0; }
-*/
-
-/* 모바일 */
-@media (max-width: 768px) {
-  .about-hero { grid-template-columns: 1fr; }
-  .about-hero .left { max-width: 320px; margin: 0 auto; }
-}
-
-/* =========================
-   About: 큰 H1(페이지 타이틀) 감추기
-   ========================= */
+/* ---- Hide the big H1 on the About page (name is in the sidebar) ---- */
 body.layout--about h1.page-title,
 body.layout--about .page-title,
 body.layout--about .page-header,
@@ -44,10 +119,7 @@ body.layout--about .page-header h1 {
   display: none !important;
 }
 
-/* =========================
-   About: 좌상단 브랜드(작은 이름) 항상 보이게
-   테마에서 숨기는 규칙을 전부 무력화
-   ========================= */
+/* ---- Navbar brand always visible on About page ---- */
 body.layout--about .navbar-brand,
 body.layout--about .site-title,
 body.layout--about .navbar .navbar-title {
@@ -57,4 +129,40 @@ body.layout--about .navbar .navbar-title {
   position: static !important;
   height: auto !important;
   width: auto !important;
+}
+
+/* ---- Hide the bottom social icons on About (already in sidebar) ---- */
+.about .social { display: none !important; }
+
+/* =========================
+   RESPONSIVE — mobile
+   ========================= */
+@media (max-width: 992px) {
+  .site-wrapper {
+    flex-direction: column;
+  }
+  .site-sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    top: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 1.5rem 1rem 1.2rem;
+  }
+  .sidebar-avatar {
+    width: 140px;
+    height: 140px;
+  }
+  .sidebar-social {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    gap: 0.8rem;
+  }
+  .sidebar-social a span {
+    /* keep labels on mobile too */
+  }
 }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*******************************************************************************
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
@@ -998,29 +997,21 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
-/* =============================================================
-   SIDEBAR LAYOUT — Hyo Kang-inspired persistent left sidebar
-   ============================================================= */
-/* ---- Site-wide wrapper ---- */
-.site-wrapper {
+/* ---- Hide the duplicate profile block ---- */
+.about .profile {
+  display: none !important;
+}
+
+/* ---- About page sidebar layout ---- */
+.about-sidebar-layout {
   display: flex;
-  min-height: calc(100vh - 56px);
+  gap: 2.5rem;
+  align-items: flex-start;
 }
 
-/* ---- Left Sidebar ---- */
-.site-sidebar {
-  width: 280px;
-  min-width: 280px;
-  padding: 2.5rem 1.5rem 2rem;
-  border-right: 1px solid var(--global-divider-color);
-  background: var(--global-bg-color);
-  position: sticky;
-  top: 56px;
-  height: calc(100vh - 56px);
-  overflow-y: auto;
-}
-
-.sidebar-inner {
+.about-sidebar {
+  width: 250px;
+  min-width: 250px;
   text-align: center;
 }
 
@@ -1078,7 +1069,6 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   border-top: 1px solid var(--global-divider-color);
 }
 
-/* Social links — vertical list with icon + label like Hyo Kang */
 .sidebar-social {
   display: flex;
   flex-direction: column;
@@ -1108,18 +1098,12 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
   font-size: 1.05rem;
 }
 
-/* ---- Main Content Area ---- */
-.site-content {
+.about-main {
   flex: 1;
   min-width: 0;
 }
 
-/* ---- Hide the duplicate profile block that al-folio's about layout renders ---- */
-.about .profile {
-  display: none !important;
-}
-
-/* ---- Hide the big H1 on the About page (name is in the sidebar) ---- */
+/* ---- Hide big H1 on About ---- */
 body.layout--about h1.page-title,
 body.layout--about .page-title,
 body.layout--about .page-header,
@@ -1127,7 +1111,7 @@ body.layout--about .page-header h1 {
   display: none !important;
 }
 
-/* ---- Navbar brand always visible on About page ---- */
+/* ---- Navbar brand always visible ---- */
 body.layout--about .navbar-brand,
 body.layout--about .site-title,
 body.layout--about .navbar .navbar-title {
@@ -1139,27 +1123,15 @@ body.layout--about .navbar .navbar-title {
   width: auto !important;
 }
 
-/* ---- Hide the bottom social icons on About (already in sidebar) ---- */
-.about .social {
-  display: none !important;
-}
-
-/* =========================
-   RESPONSIVE — mobile
-   ========================= */
-@media (max-width: 992px) {
-  .site-wrapper {
+/* ---- Mobile ---- */
+@media (max-width: 768px) {
+  .about-sidebar-layout {
     flex-direction: column;
   }
-  .site-sidebar {
+  .about-sidebar {
     width: 100%;
     min-width: 100%;
-    height: auto;
-    position: relative;
-    top: auto;
-    border-right: none;
-    border-bottom: 1px solid var(--global-divider-color);
-    padding: 1.5rem 1rem 1.2rem;
+    margin-bottom: 1.5rem;
   }
   .sidebar-avatar {
     width: 140px;
@@ -1171,9 +1143,6 @@ body.layout--about .navbar .navbar-title {
     justify-content: center;
     padding-left: 0;
     gap: 0.8rem;
-  }
-  .sidebar-social a span {
-    /* keep labels on mobile too */
   }
 }
 

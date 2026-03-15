@@ -24,7 +24,7 @@ social: true
 <div class="right">
   <h3 style="margin-bottom: 1.2em;">Welcome!</h3>
 
-  <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">Max Planck Institute for Innovation and Competition</a> and an Adjunct Professor at the <a href="[https://business.unist.ac.kr/](https://business.unist.ac.kr/eng/)">School of Business Administration, UNIST</a>.</p>
+  <p>I am a Senior Research Fellow at the <a href="https://www.ip.mpg.de/en/">MPI for Innovation and Competition</a> and an Adjunct Professor at the <a href="https://business.unist.ac.kr/eng/">School of Business Administration, UNIST</a>.</p>
   
 <p>
  My research focuses on the drivers of firm innovation strategy and entrepreneurship. 

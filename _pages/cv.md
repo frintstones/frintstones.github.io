@@ -5,4 +5,4 @@ title: CV
 nav: true
 nav_order: 4
 ---
-<meta http-equiv="refresh" content="0; url=/assets/pdf/DAEHYUNKIM_CV.pdf">
+<script>window.open("/assets/pdf/DAEHYUNKIM_CV.pdf", "_blank"); window.location.href = "/";</script>

@@ -1,6 +1,6 @@
-/* ---- Global: darker text + bigger font ---- */
+/* ---- Global: darker text, unified size ---- */
 body {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
 }
 p, li, span, div, td, th {
@@ -9,10 +9,8 @@ p, li, span, div, td, th {
 h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
-
 /* ---- Hide the duplicate profile block ---- */
 .about .profile { display: none !important; }
-
 /* ---- About page sidebar layout ---- */
 .about-sidebar-layout {
   display: flex;
@@ -20,7 +18,6 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0;
   min-height: calc(100vh - 150px);
 }
-
 .about-sidebar {
   width: 280px;
   min-width: 280px;
@@ -30,37 +27,34 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 80px;
 }
-
 .about-main {
   flex: 1;
   min-width: 0;
   padding-left: 2.5rem;
 }
 .about-main h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #000;
   margin-top: 0;
 }
 .about-main p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.75;
   color: #000;
 }
-
 .sidebar-avatar {
   width: 240px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
   display: block;
-  margin: 0 auto 1.2rem;
+  margin: 0 0 1.2rem;
   box-shadow: 0 2px 12px rgba(0,0,0,.1);
 }
-
 .sidebar-name {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.5rem;
   line-height: 1.3;
   color: #000;
 }
@@ -71,17 +65,15 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-name a:hover {
   color: var(--global-theme-color) !important;
 }
-
 .sidebar-role {
   font-size: 0.95rem;
-  margin: 0 0 0.15rem;
+  margin: 0 0 0.1rem;
   color: #000;
   font-weight: 400;
 }
-
 .sidebar-affil {
-  font-size: 0.92rem;
-  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
   line-height: 1.45;
   color: #000;
   font-weight: 400;
@@ -93,18 +85,16 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-affil a:hover {
   color: var(--global-theme-color);
 }
-
 .sidebar-divider {
-  margin: 0.8rem auto;
+  margin: 0.8rem 0;
   width: 60%;
   border-top: 1px solid rgba(0,0,0,.1);
 }
-
 .sidebar-social {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 0.45rem;
   padding-left: 0;
 }
 .sidebar-social a {
@@ -112,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 0.5rem;
   color: #000;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -123,10 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-social a i {
   width: 1.2em;
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: #000;
 }
-
 /* ---- Hide big H1 on About ---- */
 body.layout--about h1.page-title,
 body.layout--about .page-title,
@@ -134,7 +123,6 @@ body.layout--about .page-header,
 body.layout--about .page-header h1 {
   display: none !important;
 }
-
 /* ---- Navbar brand always visible ---- */
 body.layout--about .navbar-brand,
 body.layout--about .site-title,
@@ -146,7 +134,6 @@ body.layout--about .navbar .navbar-title {
   height: auto !important;
   width: auto !important;
 }
-
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
   .about-sidebar-layout {

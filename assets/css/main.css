@@ -997,9 +997,9 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
-/* ---- Global: darker text + bigger font ---- */
+/* ---- Global: darker text, unified size ---- */
 body {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000;
 }
 
@@ -1041,13 +1041,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-main h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #000;
   margin-top: 0;
 }
 
 .about-main p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.75;
   color: #000;
 }
@@ -1058,14 +1058,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px;
   object-fit: cover;
   display: block;
-  margin: 0 auto 1.2rem;
+  margin: 0 0 1.2rem;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar-name {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.5rem;
   line-height: 1.3;
   color: #000;
 }
@@ -1081,14 +1081,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-role {
   font-size: 0.95rem;
-  margin: 0 0 0.15rem;
+  margin: 0 0 0.1rem;
   color: #000;
   font-weight: 400;
 }
 
 .sidebar-affil {
-  font-size: 0.92rem;
-  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
   line-height: 1.45;
   color: #000;
   font-weight: 400;
@@ -1104,7 +1104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-divider {
-  margin: 0.8rem auto;
+  margin: 0.8rem 0;
   width: 60%;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -1113,7 +1113,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 0.45rem;
   padding-left: 0;
 }
 
@@ -1122,7 +1122,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 0.5rem;
   color: #000;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -1135,7 +1135,7 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-social a i {
   width: 1.2em;
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: #000;
 }
 

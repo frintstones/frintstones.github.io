@@ -1201,4 +1201,8 @@ body.layout--about .navbar .navbar-title {
   display: none !important;
 }
 
+.about-sidebar p {
+  font-weight: 300 !important;
+}
+
 /*# sourceMappingURL=main.css.map */

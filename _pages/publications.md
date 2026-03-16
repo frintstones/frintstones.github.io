@@ -23,12 +23,13 @@ nav_order: 1
 		{% endif %}
 	{%- endcapture -%}
 	
-	<h5 class="font-weight-bolder mb-n4 mt-5 mp-5" style="border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: 0.5rem;">{{cat}}</h5>
+	<h5 class="font-weight-bolder mb-n4 mt-5 mp-5">{{cat}}</h5>
 	{% for y in page.years  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{%- endcapture -%}
 		{% if citecount != "0"  %}
+			<h2 class="year">{{y}}</h2>
 			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}

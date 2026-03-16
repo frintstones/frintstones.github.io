@@ -11,10 +11,8 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
-
 {% for cat_ in page.categories  %}
 	{% assign ind = forloop.index %}
-
 	{%- capture cat -%}
  		{% if page.catprint[ind] == "Manuscripts Under Development" -%}
 			Manuscripts Under Development <h6 class="mb-n4 mt-3 pt-2 mp-5">Correct authoring will be determined later</h6>
@@ -25,18 +23,14 @@ nav_order: 1
 		{% endif %}
 	{%- endcapture -%}
 	
-	<h5 class="font-weight-bolder mb-n4 mt-5 mp-5">{{cat}}</h5>
-	<hr>
+	<h5 class="font-weight-bolder mb-n4 mt-5 mp-5" style="border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: 0.5rem;">{{cat}}</h5>
 	{% for y in page.years  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{%- endcapture -%}
-
 		{% if citecount != "0"  %}
-			<h2 class="year" style="visibility: hidden; margin-bottom: -2rem;">{{y}}</h2>
 			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}
 {% endfor %}
-
 </div>

@@ -25,7 +25,7 @@ nav_order: 1
 		{% endif %}
 	{%- endcapture -%}
 	
-	<h4 class="font-weight-bolder mb-n4 mt-5 mp-5">{{cat}}</h4>
+	<h5 class="font-weight-bolder mb-n4 mt-5 mp-5">{{cat}}</h5>
 	{% for y in page.years  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}

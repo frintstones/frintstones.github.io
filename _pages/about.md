@@ -12,6 +12,6 @@ social: false
 
 I am a Senior Research Fellow at the [Max Planck Institute for Innovation and Competition](https://www.ip.mpg.de/en/) and an Adjunct Professor at the [School of Business Administration, UNIST](https://business.unist.ac.kr/eng/).
 
-My research focuses on the drivers of firm innovation strategy and entrepreneurship. Specifically, I investigate how technological and institutional changes influence organizational dynamics, internationalization strategies, and the entrepreneurial ecosystem—including VC financing and new firm creation.
+My research focuses on the drivers of firm innovation strategy and entrepreneurship. Specifically, I investigate how technological and institutional changes influence organizational dynamics, internationalization strategies, and the entrepreneurial ecosystem, including VC financing and new firm creation.
 
 Recently, my work examines how AI and automation are transforming labor markets and entrepreneurship, from workers' transitions into self-employment to how generative AI shapes startup growth, hiring, and founding team diversity. You can find more details in the [research](./research) section and on my <a href="/assets/pdf/DAEHYUNKIM_CV.pdf" target="_blank">CV</a>.

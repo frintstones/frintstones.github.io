@@ -1187,7 +1187,7 @@ body.layout--about .navbar .navbar-title {
   }
   .sidebar-avatar {
     width: 180px;
-    height: 180px;
+    height: auto;
   }
   .sidebar-social {
     flex-direction: row;
